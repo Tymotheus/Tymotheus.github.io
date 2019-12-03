@@ -2,7 +2,7 @@
 
 There is still a lot to be done in the exciting world of programming! As I am still working on couple of projects which I will reveal soon, I will have to make you wait some time. For now I thought you might be interested in quite useful feature which is Markdown language. You can read about it below.
 
-Here is the [link to the Wikipedia page about it](https://en.wikipedia.org/wiki/Markdown).
+Here is the [link to Wikipedia page about it](https://en.wikipedia.org/wiki/Markdown).
 
 PS Feel free to contact me if you have any interesting projects in mind!
 
