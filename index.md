@@ -4,9 +4,7 @@ There is still a lot to be done in the exciting world of programming! As I am st
 
 Here is the [link to the Wikipedia page about it](https://en.wikipedia.org/wiki/Markdown).
 
-You can use the [editor on GitHub](https://github.com/Tymotheus/Tymotheus.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+PS Feel free to contact me if you have any interesting projects in mind!
 
 ### Markdown
 
