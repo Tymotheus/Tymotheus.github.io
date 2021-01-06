@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Turtle graphics</title>
+    <link rel="icon" href="images/icon.png">
+    <link href="styles/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Turtle graphics</h1>
+    <h2>and Logo programming language</h2>
+    <img src="images/sad-turtle.png" height="200" alt="Turtle image">
+    <p>In computer graphics, <strong>turtle graphics</strong> are vector graphics using a relative cursor (the "turtle") upon a Cartesian plane. Turtle graphics is a key feature of the Logo programming language.</p>
+    <p>You can read more <a href="https://en.wikipedia.org/wiki/Turtle_graphics">here</a></p>
+    <p>Below you can find a board to move your turtle. Use the buttons to navigate.</p>
+        
+    <canvas id="canvas" width="600" height="300">
+      Board
+    </canvas>
+        
+    <div class="inputs-container">
+        <p class="decision-button" id="author-button">Author: Turtle</p> 
+        <input class='my-input' id="author-input" type="text" name="Paul" style="display: none;">
+    </div>
+
+    <div class="inputs-container">
+      <p class="decision-button">Forward</p>
+      <input class="my-input" id="forward-input" type="number" name="forward" style="display: none;">
+    </div>
+
+<div class="inputs-container">
+  <p class="decision-button">Turn right</p>
+  <input class="my-input" id="right-input" type="number" name="right" style="display: none;">
+</div>
+
+<div class="inputs-container">
+  <p class="decision-button">Turn left</p>
+  <input class="my-input"  id="left-input" type="number" name="left" style="display: none;">
+</div>
+
+<div class="static-container">
+  <p class="static-button" id="reset-button">Reset</p>
+</div>
+
+<div class="static-container">
+  <p class="static-button" id="stop-drawing-button">Stop drawing</p>
+</div>
+
+<div class="static-container">
+  <p class="static-button" id="start-drawing-button">Start drawing</p>
+</div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html> 
