@@ -16,7 +16,7 @@ export default class Logo{
     }
 
     turn_left(angle){
-        this.angle += +angle
+        this.angle -= +angle
         console.log(this.angle)
     }
 
