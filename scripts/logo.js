@@ -15,12 +15,12 @@ export default class Logo{
 
     }
 
-    turn_left(angle){
+    rotate_left(angle){
         this.angle -= +angle
         console.log(this.angle)
     }
 
-    turn_right(angle){
+    rotate_right(angle){
         this.angle += +angle
         console.log(this.angle)
     }

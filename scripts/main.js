@@ -133,26 +133,26 @@ function revealInput(e, i ){
 
 }
 
-//turn left input - event listener
+//rotate left input - event listener
 const leftInput = document.getElementById('left-input')
 leftInput.addEventListener('keydown', leftInputFunction)
 
 function leftInputFunction(e){
     if (e.key === "Enter"){
-        turtle.turn_left(leftInput.value)
-        //TO DO: Here out turtle should be turned and redrawn
+        turtle.rotate_left(leftInput.value)
+        //TO DO: Here our turtle should be turned and redrawn
         drawTurtle()
     }
 }
 
-//turn right input - event listener
+//rotate right input - event listener
 const rightInput = document.getElementById('right-input')
 rightInput.addEventListener('keydown', rightInputFunction)
 
 function rightInputFunction(e){
     if (e.key === "Enter"){
-        turtle.turn_right(rightInput.value)
-        //TO DO: Here out turtle should be turned and redrawn
+        turtle.rotate_right(rightInput.value)
+        //TO DO: Here our turtle should be turned and redrawn
         drawTurtle()
     }
 }
